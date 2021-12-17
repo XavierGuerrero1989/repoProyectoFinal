@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAR DECORACIONES: Contacto</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Comfortaa:wght@300&family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b3a557b7cd.js" crossorigin="anonymous"></script>
+</head>
+<body class="cuerpocontacto">
+    <header class="header" >
+        <img class="header__logo" src="../assets/imgs/logo400.png" alt="Logo Diseño de interiores">
+        <nav class="header__nav">      
+            <ul class="header__menu">
+                <li class="header__item rotate-hor-center"><a class="header__link" href="../index.html">INICIO</a></li>
+                <li class="header__item rotate-hor-center"><a class="header__link" href="personalizacion.html">AMBIENTACIONES PERZONALIDAS</a></li>
+                <li class="header__item rotate-hor-center"><a class="header__link" href="comoTrabajamos.html">NUESTRAS PROPUESTAS</a></li>
+                <li class="header__item rotate-hor-center"><a class="header__link" href="ambientaciones.html">NUESTROS TRABAJOS</a></li>
+                <li class="header__item rotate-hor-center"><a class="header__link" href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="contact">
+                <h1 class="contact__title"> Dejenos sus datos de contacto</h1>
+                <form class="contact__form" action="#" method="get">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="user_name" id="name" placeholder="Introduzca su Nombre">
+                    <br>
+                    <label for="lastname">Apellido</label>
+                    <input type="text" name="user_lastname" id="lastname" placeholder="Introduzca su Apellido">
+                    <br>
+                    <label for="contactnumber">Telefono de Contacto</label>
+                    <input type="number" name="user_number" id="contactnumber" placeholder="Introduzca su Numero de contacto">
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" name="user_email" id="email" placeholder="Introduzca su casilla de Email">
+                    <br>
+                    <div class="contact__aclaracion">Tipo de decoracion a solicitar:</div>
+                    <label for="Diseño">Redecoracion</label>
+                    <input type="radio" name="Diseño" id="Redecoracion">
+                    <label for="Diseño">Desde Cero</label>
+                    <input type="radio" name="Diseño" id="Desde Cero">
+                    <br>
+                    <label for="Comentarios">Describinos el tipo de diseño buscado</label>
+                    <textarea name="Comentarios" id="" cols="30" rows="10" placeholder="Comentanos tu tipo de diseño deseado"></textarea>
+                    <br>
+                    <label for="origen">¿De donde nos conoces?</label>
+                    <select name="origen" id="origen">
+                        <option value="Google">Google</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Recomendacion">Recomendacion</option>
+                        <option value="Ya fui cliente">Ya fui cliente</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </form>
+        </div>
+        <footer class="footer">
+            <div class="footer__part1">
+                <p class="footer__title">Conectate con nosotros y hacenos llegar tus inquietudes.</p>
+            </div>
+            <div class="footer__part2">
+                <i class="fab fa-instagram"> <br> INSTAGRAM</i>
+                <i class="far fa-address-card"> <br> <a class="footer__link" href="contacto.html">Dejenos su contacto</a></i>
+                <i class="far fa-envelope"> <br> Envienos un email</i>
+            </div>
+        </footer>
+</body>
+</html>
