@@ -326,7 +326,7 @@
 .steps__title{
     padding: 10px;
     font-family: 'Josefin Slab', serif;
-    font-size: 3rem;
+    font-size: 1.8rem;
     color: rgb(73,76,95);
     width: 100%;
 }
@@ -362,7 +362,7 @@
 
 .fade-in {
 	-webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 @-webkit-keyframes fade-in {
@@ -396,7 +396,7 @@
     background-color: rgb(151,188,196);
     font-family: 'Arvo', serif;
     color: ivory;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     padding: 30px;
 
 }
@@ -437,8 +437,8 @@
 
 
 .steps__img{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 200px;
     margin: 50px;
     border: 10px solid rgb(73,76,95);
@@ -446,7 +446,7 @@
 
 .cuerpoestilo{
     display: grid;
-    grid-template-rows: 200px auto auto 100px;
+    grid-template-rows: 200px 400px auto 100px;
     grid-template-columns: 100%;
 }
 
@@ -472,7 +472,8 @@
 
 .estilos__presentacion{
     display: grid;
-    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 10px;
     grid-template-areas: "japon industrial natural moderna";
     
 }
@@ -501,8 +502,8 @@
 }
 
 .estilos__img{
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
     border-radius: 100px;
     border: 10px solid rgb(73,76,95);
 }
@@ -526,7 +527,7 @@
 .explicacion__content{
     font-family: 'Josefin Slab', serif;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: rgba(151,188,196, .8);
     width: 50%;
     padding: 5px;
@@ -548,7 +549,7 @@
 .explicacion__content2{
     font-family: 'Josefin Slab', serif;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: rgba(151,188,196, .8);
     width: 50%;
     padding: 10px;
@@ -569,7 +570,7 @@
 .explicacion__content3{
     font-family: 'Josefin Slab', serif;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: rgba(151,188,196, .8);
     width: 50%;
     padding: 5px;
@@ -591,7 +592,7 @@
 .explicacion__content4{
     font-family: 'Josefin Slab', serif;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: rgba(154, 151, 196, 0.8);
     width: 50%;
     padding: 10px;
