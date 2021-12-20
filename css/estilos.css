@@ -680,7 +680,7 @@
 
 .trabajos__title{
     font-family: 'Josefin Slab', serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 10px;
     color: rgb(73,76,95);
 }
@@ -702,7 +702,8 @@
 .trabajos__cliente1{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 50%;
+    justify-self: center;
     gap: 20px;
     border: solid 5px rgb(73,76,95);
     border-radius: 20px 20px 20px 20px;
@@ -711,8 +712,8 @@
 }
 
 .trabajos__foto1{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border: solid 5px rgb(73,76,95);
     border-radius: 20px 20px 20px 20px;
 }
@@ -721,7 +722,7 @@
     align-self: center;
     font-family: 'Josefin Slab', serif;
     color: rgb(73,76,95);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .trabajos__imgcont2{
@@ -733,7 +734,8 @@
 .trabajos__cliente2{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 50%;
+    justify-self: center;
     gap: 20px;
     border: solid 5px rgb(73,76,95);
     border-radius: 20px 20px 20px 20px;
@@ -742,8 +744,8 @@
 }
 
 .trabajos__foto2{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border: solid 5px rgb(73,76,95);
     border-radius: 20px 20px 20px 20px;
 }
@@ -752,7 +754,7 @@
     align-self: center;
     font-family: 'Josefin Slab', serif;
     color: rgb(73,76,95);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .trabajos__imgcont3{
@@ -764,7 +766,8 @@
 .trabajos__cliente3{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 50%;
+    justify-self: center;
     gap: 20px;
     border: solid 5px rgb(73,76,95);
     border-radius: 20px 20px 20px 20px;
@@ -773,8 +776,8 @@
 }
 
 .trabajos__foto3{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border: solid 5px rgb(73,76,95);
     border-radius: 20px 20px 20px 20px;
 }
@@ -783,7 +786,7 @@
     align-self: center;
     font-family: 'Josefin Slab', serif;
     color: rgb(73,76,95);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 768px) {
