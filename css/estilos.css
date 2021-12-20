@@ -230,14 +230,14 @@
     margin-bottom: 50px;
     font-family: 'Josefin Slab', serif;
     color: rgb(73,76,95);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .description__content{
     display: flex;
     color: rgb(73,76,95);
     font-family: 'Arvo', serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .description__video{
