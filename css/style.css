@@ -1,5 +1,5 @@
 .navMenu{
-    border-bottom: solid 2px rgb(73,76,95);
+    border-bottom: solid 4px rgb(73,76,95);
 }
 
 
@@ -157,4 +157,66 @@
     font-size: 1.5rem;
     color: rgb(73,76,95);
     padding: 10px;
+}
+
+.description__container{
+  display: flex;
+  position: relative;
+  height: 60vh;
+  border-bottom: solid 4px rgb(73,76,95);
+  border-top: solid 4px rgb(73,76,95);
+}
+.description__text{
+  align-self: center;
+}
+
+.description__title{
+  margin-bottom: 50px;
+  font-family: 'Josefin Slab', serif;
+  color: rgb(73,76,95);
+  font-size: 2rem;
+}
+
+.description__content{
+  color: rgb(73,76,95);
+  font-family: 'Arvo', serif;
+  font-size: 1.2rem;
+}
+
+
+.description__video{
+  display: flex;
+  width: 100%;
+  height: 40vh;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../assets/imgs/foorterback.jpg");
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.footer__org1{
+  font-family: 'Arvo', serif;
+  color: rgb(73,76,95);
+  font-size: 2rem;
+}
+
+.footer__part2{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Arvo', serif;
+  color: rgb(73,76,95);
+  font-size: 1.5rem;
+}
+
+.footer__link{
+  font-family: 'Arvo', serif;
+  color: rgb(73,76,95);
+  list-style: none;
 }
