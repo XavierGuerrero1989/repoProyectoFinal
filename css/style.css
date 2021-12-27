@@ -423,3 +423,30 @@
   font-size: 1.5rem;
   padding: 20px;
 }
+
+.contacto{
+  background-image: url("../assets/imgs/fcontacto.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-bottom: solid 4px rgb(73,76,95);
+}
+
+.contact__title{
+  font-family: 'Josefin Slab', serif;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.contact__minititulo{
+  font-family: 'Josefin Slab', serif;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.form-check-label{
+  font-family: 'Josefin Slab', serif;
+  color: white;
+  font-size: 1.2rem;
+}
