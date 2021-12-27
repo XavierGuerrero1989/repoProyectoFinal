@@ -220,3 +220,59 @@
   color: rgb(73,76,95);
   list-style: none;
 }
+
+.pasos__ctn{
+  display: flex;
+  flex-direction: row;
+  height: 70vh;  
+  background-image: url("../assets/imgs/back2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: solid 4px rgb(73,76,95);
+}
+
+.pasos__titulo{
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.8rem;
+  color: rgb(73,76,95);
+}
+
+.pasos__explain{
+  font-family: 'Arvo', serif;
+  color: rgb(73,76,95);
+  font-size: 1.3rem;
+}
+
+.boton__personalizacion{
+  font-family: 'Josefin Slab', serif;
+}
+
+.dropdown-item{
+  font-family: 'Josefin Slab', serif;
+}
+
+.enumeracion{
+  border-bottom: solid 4px rgb(73,76,95);
+  background-color: #74EBD5;
+  background-image: linear-gradient(45deg, #74EBD5 0%, #9bc3c3 50%, #ffffff 100%);
+  
+
+}
+
+.enumeracion__r{
+  padding: 20px;
+}
+
+.enumeracion__img{
+  width: 300px;
+  height: 300px;
+  border-radius: 20px 20px 20px 20px;
+  border: solid 2px rgb(73,76,95);
+}
+
+.enumeracion__txt{
+  font-family: 'Arvo', serif;
+  color: rgb(73,76,95);
+  font-size: 1.2rem;
+}
