@@ -276,3 +276,128 @@
   color: rgb(73,76,95);
   font-size: 1.2rem;
 }
+
+.propuestas__ctn{
+  height: 65vh;
+  background-image: url("../assets/imgs/back2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: solid 4px rgb(73,76,95);
+}
+
+.propuestas__titulo{
+  font-family: 'Arvo', serif;
+  color: rgb(73,76,95);
+  font-size: 1.8rem;
+}
+
+
+.card-img-top{
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: solid 3px rgb(73,76,95);
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border: 0px !important;
+  background: transparent !important;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor__japandi{
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  background-image: url("../assets/imgs/japandi.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  border-bottom: solid 4px rgb(73,76,95);
+}
+
+.explicacion__content{
+  font-family: 'Josefin Slab', serif;
+  color: white;
+  font-size: 1.3rem;
+  background-color: rgba(151,188,196, .8);
+  width: 50%;
+  padding: 5px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.contenedor__industrial{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 70vh;
+  background-image: url("../assets/imgs/industrial.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  border-bottom: solid 4px rgb(73,76,95);
+}
+
+.explicacion__content2{
+  font-family: 'Josefin Slab', serif;
+  color: white;
+  font-size: 1.3rem;
+  background-color: rgba(151,188,196, .8);
+  width: 50%;
+  padding: 5px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.contenedor__natural{
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  background-image: url("../assets/imgs/natural.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  border-bottom: solid 4px rgb(73,76,95);
+}
+
+.explicacion__content3{
+  font-family: 'Josefin Slab', serif;
+  color: white;
+  font-size: 1.3rem;
+  background-color: rgba(151,188,196, .8);
+  width: 50%;
+  padding: 5px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.contenedor__moderno{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 70vh;
+  background-image: url("../assets/imgs/moderno.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  border-bottom: solid 4px rgb(73,76,95);
+}
+
+.explicacion__content4{
+  font-family: 'Josefin Slab', serif;
+  color: white;
+  font-size: 1.3rem;
+  background-color: rgba(151,188,196, .8);
+  width: 50%;
+  padding: 5px;
+  border-radius: 20px 0px 0px 20px;
+}
