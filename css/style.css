@@ -401,3 +401,25 @@
   padding: 5px;
   border-radius: 20px 0px 0px 20px;
 }
+
+.clientes{
+  background-image: url("../assets/imgs/back2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid 4px rgb(73,76,95);
+}
+
+.clientes__title{
+  font-family: 'Josefin Slab', serif;
+  color: rgb(73,76,95);
+  font-size: 3rem;
+  padding: 20px;
+}
+
+.clientes__title--mini{
+  font-family: 'Josefin Slab', serif;
+  color: rgb(73,76,95);
+  font-size: 1.5rem;
+  padding: 20px;
+}
