@@ -278,6 +278,9 @@
 }
 
 .propuestas__ctn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   height: 65vh;
   background-image: url("../assets/imgs/back2.jpg");
   background-position: center;
@@ -286,10 +289,16 @@
   border-bottom: solid 4px rgb(73,76,95);
 }
 
+.propuestas__ctn2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .propuestas__titulo{
   font-family: 'Arvo', serif;
   color: rgb(73,76,95);
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 
@@ -417,11 +426,17 @@
   padding: 20px;
 }
 
+.carousel{
+  padding: 10px;
+}
+
 .clientes__title--mini{
   font-family: 'Josefin Slab', serif;
   color: rgb(73,76,95);
   font-size: 1.5rem;
-  padding: 20px;
+  padding: 10px;
+  background-color: rgb(192,157,137);
+  border-radius: 0px 20px 20px 20px;
 }
 
 .contacto{
@@ -449,4 +464,8 @@
   font-family: 'Josefin Slab', serif;
   color: white;
   font-size: 1.2rem;
+}
+
+.btn{
+  background-color: rgb(73,76,95) !important;
 }
