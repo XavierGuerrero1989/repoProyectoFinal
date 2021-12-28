@@ -224,12 +224,13 @@
 .pasos__ctn{
   display: flex;
   flex-direction: row;
-  height: 70vh;  
+  height: 100%;  
   background-image: url("../assets/imgs/back2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-bottom: solid 4px rgb(73,76,95);
+  padding: 80px;
 }
 
 .pasos__titulo{
@@ -262,11 +263,12 @@
 
 .enumeracion__r{
   padding: 20px;
+  overflow: hidden;
 }
 
 .enumeracion__img{
   width: 300px;
-  height: 300px;
+  height: 300px !important;
   border-radius: 20px 20px 20px 20px;
   border: solid 2px rgb(73,76,95);
 }
