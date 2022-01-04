@@ -249,6 +249,11 @@
   font-family: 'Josefin Slab', serif;
 }
 
+.boton__personalizacion:hover{
+  background-color: turquoise !important;
+  color: rgb(73,76,95);
+}
+
 .dropdown-item{
   font-family: 'Josefin Slab', serif;
 }
@@ -469,7 +474,22 @@
   font-size: 1.2rem;
 }
 
-.btn{
-  background-color: rgb(73,76,95) !important;
+.btn__contact{
+  font-family: 'Josefin Slab', serif;
+  background-color: rgb(73,76,95);
+}
+
+.btn__contact:hover{
+  background-color: turquoise;
+  color: rgb(73,76,95)
+}
+
+.btn__propuestas{
+  background-color: rgb(73,76,95);
+}
+
+.btn__propuestas:hover{
+  background-color: turquoise;
+  color: rgb(73,76,95);
 }
 
