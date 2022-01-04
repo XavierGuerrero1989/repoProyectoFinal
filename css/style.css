@@ -146,8 +146,6 @@
     display: flex;
     justify-self: center;
     border-radius: 20px;
-    width: 600px;
-    height: 500px;
     padding: 10px;
 }
 
@@ -493,3 +491,14 @@
   color: rgb(73,76,95);
 }
 
+@media screen and (max-width: 768px){
+
+  .heroSection{
+      background-size: contain;
+    }
+
+  .contact__title{
+    text-align: center;
+  }
+  
+}
