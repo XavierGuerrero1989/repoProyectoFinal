@@ -1,5 +1,5 @@
 .navMenu{
-    border-bottom: solid 4px rgb(73,76,95);
+    border-bottom: solid 4px $font-color-dark;
     
     &__logo{
         width: 200px;
@@ -14,7 +14,7 @@
 
 .nav-item{
     font-family: 'Arvo', serif;
-    color: rgb(73,76,95);
+    color: $font-color-dark;
     border-bottom: solid 2px rgb(192,157,137);
 }
 
@@ -59,25 +59,25 @@
     }
     
     &__title{
-        font-family: 'Josefin Slab', serif;
+        font-family: $font-type-title;
         font-size: 1.8rem;
-        color: rgb(73,76,95);
-        background-color: rgb(192,157,137);
-        border-color: solid rgb(192,157,137) ;
+        color: $font-color-dark;
+        background-color: $background-color-brown;
+        border-color: solid $background-color-brown;
         border-radius: 0px 20px 20px 0px;
         align-items: center;
         padding: 16px;
     }
     
     &__sub{
-        font-family: 'Comfortaa', cursive;
+        font-family: $font-type-normal;
         font-size: 1.4rem;
-        background-color: rgb(192,157,137);
-        border-color: solid rgb(192,157,137);
+        background-color: $background-color-brown;
+        border-color: solid $background-color-brown;
         border-radius: 0px 20px 20px 0px;
         align-items: center;
         justify-content: flex-start;
-        color: rgb(73,76,95);
+        color: $font-color-dark;
         padding: 10px;
     }
 }
@@ -154,9 +154,9 @@
     
     &__text{
       display: flex;
-      font-family: 'Comfortaa', cursive;
+      font-family: $font-type-normal;
       font-size: 1.5rem;
-      color: rgb(73,76,95);
+      color: $font-color-dark;
       padding: 10px;
     }
   }
@@ -166,8 +166,8 @@
   display: flex;
   position: relative;
   height: 100%;
-  border-bottom: solid 4px rgb(73,76,95);
-  border-top: solid 4px rgb(73,76,95);
+  border-bottom: solid 4px $border-color-dark;
+  border-top: solid 4px $border-color-dark;
   padding: 10px;
   
   &__text{
@@ -176,14 +176,14 @@
   
   &__title{
     margin-bottom: 50px;
-    font-family: 'Josefin Slab', serif;
-    color: rgb(73,76,95);
+    font-family: $font-type-title;
+    color: $font-color-dark;
     font-size: 2rem;
   }
   
   &__content{
-    color: rgb(73,76,95);
-    font-family: 'Arvo', serif;
+    color: $font-color-dark;
+    font-family: $font-type-normal;
     font-size: 1.2rem;
   }
   
@@ -208,22 +208,22 @@
   padding: 35px;
   
   &__org1{
-    font-family: 'Arvo', serif;
-    color: rgb(73,76,95);
+    font-family: $font-type-normal;
+    color: $font-color-dark;
     font-size: 2rem;
   }
   
   &__part2{
     display: flex;
     flex-direction: column;
-    font-family: 'Arvo', serif;
-    color: rgb(73,76,95);
+    font-family: $font-type-normal;
+    color: $font-color-dark;
     font-size: 1.2rem;
   }
   
   &__link{
-      font-family: 'Arvo', serif;
-      color: rgb(73,76,95);
+      font-family: $font-type-normal;
+      color: $font-color-dark;
       list-style: none;
   }
 }
