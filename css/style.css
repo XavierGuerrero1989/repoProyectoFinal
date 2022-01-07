@@ -3,7 +3,7 @@
 }
 
 
-.logo{
+.navMenu__logo{
     width: 200px;
 }
 .navbar-nav{
@@ -52,13 +52,13 @@
     overflow: hidden;
 }
 
-.herorow{
+.heroSection__row{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.heroTitle{
+.heroSection__title{
     font-family: 'Josefin Slab', serif;
     font-size: 1.8rem;
     color: rgb(73,76,95);
@@ -100,7 +100,7 @@
     }
   }
 
-.heroSub{
+.heroSection__sub{
     font-family: 'Comfortaa', cursive;
     font-size: 1.4rem;
     background-color: rgb(192,157,137);
@@ -157,7 +157,7 @@
     padding: 10px;
 }
 
-.description__container{
+.description{
   display: flex;
   position: relative;
   height: 100%;
