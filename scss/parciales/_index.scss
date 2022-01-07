@@ -1,5 +1,5 @@
 .navMenu{
-    border-bottom: solid 4px $font-color-dark;
+    border-bottom: solid 4px $border-color-dark;
     
     &__logo{
         width: 200px;
@@ -73,7 +73,7 @@
         font-family: $font-type-normal;
         font-size: 1.4rem;
         background-color: $background-color-brown;
-        border-color: solid $background-color-brown;
+        border-color: $background-color-brown;
         border-radius: 0px 20px 20px 0px;
         align-items: center;
         justify-content: flex-start;
