@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../assets/imgs/foorterback.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 35px;
+    
+    &__org1{
+      font-family: $font-type-normal;
+      color: $font-color-dark;
+      font-size: 2rem;
+    }
+    
+    &__part2{
+      display: flex;
+      flex-direction: column;
+      font-family: $font-type-normal;
+      color: $font-color-dark;
+      font-size: 1.2rem;
+    }
+    
+    &__link{
+        font-family: $font-type-normal;
+        color: $font-color-dark;
+        list-style: none;
+    }
+
+    
+
+
+  }
