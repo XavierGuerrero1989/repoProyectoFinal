@@ -1,15 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
 .navMenu {
   border-bottom: solid 4px #494c5f; }
   .navMenu__logo {
     width: 200px; }
 
 .navbar-nav {
-  gap: 10px; }
+  gap: 40px; }
 
 .nav-item {
-  font-family: 'Arvo', serif;
+  font-family: "Comfortaa", cursive;
   color: #494c5f;
+  font-size: 0.8rem;
   border-bottom: solid 2px #c09d89; }
+
+.nav-link {
+  padding: 0px; }
 
 .rotate-hor-center:hover {
   -webkit-animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
@@ -38,6 +47,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden; }
+  @media screen and (max-width: 320px) {
+    .heroSection {
+      background-size: contain;
+      background-repeat: repeat-y; } }
+  @media screen and (max-width: 768px) {
+    .heroSection {
+      background-size: contain;
+      background-repeat: repeat-y; } }
   .heroSection__row {
     display: flex;
     flex-direction: column;
@@ -110,11 +127,29 @@
     transform: translateY(0);
     opacity: 1; } }
 
+@media screen and (max-width: 320px) {
+  .presentation {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(45deg, #74EBD5 0%, #9bc3c3 50%, #ffffff 100%); } }
+
+@media screen and (max-width: 768px) {
+  .presentation {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(45deg, #74EBD5 0%, #9bc3c3 50%, #ffffff 100%); } }
+
 .presentation__img {
   display: flex;
   justify-self: center;
   border-radius: 20px;
   padding: 10px; }
+  @media screen and (max-width: 320px) {
+    .presentation__img {
+      display: none; } }
+  @media screen and (max-width: 768px) {
+    .presentation__img {
+      display: none; } }
 
 .presentation__text {
   display: flex;
@@ -122,6 +157,10 @@
   font-size: 1.5rem;
   color: #494c5f;
   padding: 10px; }
+  @media screen and (max-width: 320px) {
+    .presentation__text {
+      font-size: 1rem;
+      padding: 10px; } }
 
 .description {
   display: flex;
@@ -155,42 +194,47 @@
   background-size: 100%;
   background-position: center;
   padding: 35px; }
+  @media screen and (max-width: 320px) {
+    .footer {
+      background-size: contain;
+      background-repeat: repeat-y; } }
+  @media screen and (max-width: 768px) {
+    .footer {
+      background-size: contain;
+      background-repeat: repeat-y; } }
   .footer__org1 {
     font-family: "Comfortaa", cursive;
     color: #494c5f;
     font-size: 2rem; }
+    @media screen and (max-width: 320px) {
+      .footer__org1 {
+        padding: 10px; } }
+    @media screen and (max-width: 768px) {
+      .footer__org1 {
+        padding: 10px; } }
   .footer__part2 {
     display: flex;
     flex-direction: column;
     font-family: "Comfortaa", cursive;
     color: #494c5f;
     font-size: 1.2rem; }
+    @media screen and (max-width: 320px) {
+      .footer__part2 {
+        padding: 10px; } }
+    @media screen and (max-width: 768px) {
+      .footer__part2 {
+        padding: 10px; } }
   .footer__link {
     font-family: "Comfortaa", cursive;
     color: #494c5f;
     list-style: none; }
-
-.footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url("../assets/imgs/foorterback.jpg");
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  padding: 35px; }
-  .footer__org1 {
+  .footer__carusel {
     font-family: "Comfortaa", cursive;
     color: #494c5f;
-    font-size: 2rem; }
-  .footer__part2 {
-    display: flex;
-    flex-direction: column;
-    font-family: "Comfortaa", cursive;
-    color: #494c5f;
-    font-size: 1.2rem; }
-  .footer__link {
-    font-family: "Comfortaa", cursive;
-    color: #494c5f;
-    list-style: none; }
+    overflow: hidden; }
+    @media screen and (max-width: 320px) {
+      .footer__carusel {
+        padding: 10px; } }
+    @media screen and (max-width: 768px) {
+      .footer__carusel {
+        padding: 10px; } }

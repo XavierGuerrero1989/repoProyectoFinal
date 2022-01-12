@@ -1,51 +1,6 @@
 
 @import "./variables";
-
-.navMenu{
-    border-bottom: solid 4px $border-color-dark;
-    
-    &__logo{
-        width: 200px;
-    }
-}
-
-
-.navbar-nav{
-    gap: 10px;
-}
-
-
-.nav-item{
-    font-family: 'Arvo', serif;
-    color: $font-color-dark;
-    border-bottom: solid 2px rgb(192,157,137);
-}
-
-.rotate-hor-center:hover {
-	-webkit-animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-	        animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-}
-
-@-webkit-keyframes rotate-hor-center {
-    0% {
-      -webkit-transform: rotateX(0);
-              transform: rotateX(0);
-    }
-    100% {
-      -webkit-transform: rotateX(-360deg);
-              transform: rotateX(-360deg);
-    }
-  }
-  @keyframes rotate-hor-center {
-    0% {
-      -webkit-transform: rotateX(0);
-              transform: rotateX(0);
-    }
-    100% {
-      -webkit-transform: rotateX(-360deg);
-              transform: rotateX(-360deg);
-    }
-  }
+@import "./responsive";
 
 .heroSection{
     height: 80vh;
@@ -55,6 +10,16 @@
     background-repeat: no-repeat;
     overflow: hidden;
     
+    @include movil{
+      background-size: contain;
+      background-repeat: repeat-y;
+    }
+
+    @include tablet{
+      background-size: contain;
+      background-repeat: repeat-y;
+    }
+
     &__row{
         display: flex;
         flex-direction: column;
@@ -148,19 +113,45 @@
 
   .presentation{
 
-      &__img{
+    @include movil{
+      display: flex;
+      flex-direction: column;
+      background-image: linear-gradient(45deg, #74EBD5 0%, #9bc3c3 50%, #ffffff 100%)
+    }
+
+    @include tablet{
+      display: flex;
+      flex-direction: column;
+      background-image: linear-gradient(45deg, #74EBD5 0%, #9bc3c3 50%, #ffffff 100%)
+    }
+
+
+    &__img{
         display: flex;
         justify-self: center;
         border-radius: 20px;
         padding: 10px;
-    }
+
+        @include movil{
+          display: none;
+        }
     
+        @include tablet{
+          display: none;
+        }
+    }
+
     &__text{
       display: flex;
       font-family: $font-type-normal;
       font-size: 1.5rem;
       color: $font-color-dark;
       padding: 10px;
+
+      @include movil{
+        font-size: 1rem;
+        padding: 10px;
+      }
     }
   }
 
@@ -197,36 +188,3 @@
 }
 
 
-
-
-.footer{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url("../assets/imgs/foorterback.jpg");
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  padding: 35px;
-  
-  &__org1{
-    font-family: $font-type-normal;
-    color: $font-color-dark;
-    font-size: 2rem;
-  }
-  
-  &__part2{
-    display: flex;
-    flex-direction: column;
-    font-family: $font-type-normal;
-    color: $font-color-dark;
-    font-size: 1.2rem;
-  }
-  
-  &__link{
-      font-family: $font-type-normal;
-      color: $font-color-dark;
-      list-style: none;
-  }
-}

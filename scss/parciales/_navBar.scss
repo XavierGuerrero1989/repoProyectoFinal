@@ -12,14 +12,19 @@
 
 
 .navbar-nav{
-    gap: 10px;
+    gap: 40px;
 }
 
 
 .nav-item{
-    font-family: 'Arvo', serif;
+    font-family: $font-type-normal;
     color: $font-color-dark;
+    font-size: 0.8rem;
     border-bottom: solid 2px rgb(192,157,137);
+}
+
+.nav-link{
+  padding: 0px;
 }
 
 .rotate-hor-center:hover {

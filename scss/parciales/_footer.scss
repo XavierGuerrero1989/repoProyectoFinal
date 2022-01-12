@@ -1,3 +1,5 @@
+@import "./variables";
+
 .footer{
     display: flex;
     flex-direction: column;
@@ -9,10 +11,29 @@
     background-position: center;
     padding: 35px;
     
+    @include movil{
+      background-size: contain;
+      background-repeat: repeat-y;
+    }
+
+    @include tablet{
+      background-size: contain;
+      background-repeat: repeat-y;
+    }
+
+
     &__org1{
       font-family: $font-type-normal;
       color: $font-color-dark;
       font-size: 2rem;
+
+      @include movil{
+        padding: 10px;
+      }
+  
+      @include tablet{
+       padding: 10px;
+      }
     }
     
     &__part2{
@@ -21,6 +42,14 @@
       font-family: $font-type-normal;
       color: $font-color-dark;
       font-size: 1.2rem;
+
+      @include movil{
+        padding: 10px;
+      }
+  
+      @include tablet{
+       padding: 10px;
+      }
     }
     
     &__link{
@@ -29,7 +58,18 @@
         list-style: none;
     }
 
+    &__carusel{
+        font-family: $font-type-normal;
+        color: $font-color-dark;
+        overflow: hidden;
+
+        @include movil{
+          padding: 10px;
+        }
     
-
-
+        @include tablet{
+         padding: 10px;
+        }
+    }
   }
+
