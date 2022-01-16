@@ -238,3 +238,51 @@
     @media screen and (max-width: 768px) {
       .footer__carusel {
         padding: 10px; } }
+
+.pasos__ctn {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background-image: url("../assets/imgs/back2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: solid 4px #494c5f;
+  padding: 80px; }
+
+.pasos__titulo {
+  font-family: "Josefin Slab", serif;
+  font-size: 1.8rem;
+  color: #494c5f; }
+
+.pasos__explain {
+  font-family: "Comfortaa", cursive;
+  color: #494c5f;
+  font-size: 1.3rem; }
+
+.boton__personalizacion {
+  font-family: "Comfortaa", cursive; }
+
+.boton__personalizacion:hover {
+  background-color: turquoise !important;
+  color: #494c5f; }
+
+.dropdown-item {
+  font-family: "Comfortaa", cursive; }
+
+.enumeracion {
+  border-bottom: solid 4px #494c5f;
+  background-color: #74EBD5;
+  background-image: linear-gradient(45deg, #74EBD5 0%, #9bc3c3 50%, #ffffff 100%); }
+  .enumeracion__r {
+    padding: 20px;
+    overflow: hidden; }
+  .enumeracion__img {
+    width: 300px;
+    height: 300px !important;
+    border-radius: 20px 20px 20px 20px;
+    border: solid 2px #494c5f; }
+  .enumeracion__txt {
+    font-family: "Comfortaa", cursive;
+    color: #494c5f;
+    font-size: 1.2rem; }
