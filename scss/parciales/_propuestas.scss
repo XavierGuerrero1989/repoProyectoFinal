@@ -3,7 +3,7 @@
 
 
 .propuestas{
-
+    
     &__ctn{
         display: flex;
         flex-direction: column;
@@ -14,48 +14,56 @@
         background-size: cover;
         background-repeat: no-repeat;
         border-bottom: solid 4px rgb(73,76,95);
-      }
-      
+    }
+    
     &__ctn2{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-      }
-      
+    }
+    
     &__titulo{
         font-family: $font-type-title;
         color: $font-color-dark;
         font-size: 2rem;
-      }
-      
+    }
+    
 }
 
-  
-  .card-img-top{
+
+.card-img-top{
     padding: 5px;
     width: 200px !important;
     height: 200px !important;
     border-radius: 20px;
     border: solid 3px rgb(73,76,95);
-  }
-  
-  .card{
+}
+
+.card{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 15px;
     border: 0px !important;
     background: transparent !important;
-  }
-  
-  .card-body{
+}
+
+.card-body{
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 
+.btn__propuestas{
+  background-color: rgb(73,76,95);
+}
 
-  .contenedor{
+.btn__propuestas:hover{
+  background-color: turquoise;
+  color: rgb(73,76,95);
+}
+
+.contenedor{
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -64,16 +72,16 @@
     background-size: 100%;
     background-position: center;
     border-bottom: solid 4px rgb(73,76,95);
-  }
+}
 
-  .contenedor__japandi{
-      @extend .contenedor;
-      background-image: url("../assets/imgs/japandi.jpg");
-      justify-content: flex-start;
-    }
+.contenedor__japandi{
+    @extend .contenedor;
+    background-image: url("../assets/imgs/japandi.jpg");
+    justify-content: flex-start;
+}
 
-  .contenedor__industrial{
-      @extend .contenedor;
+.contenedor__industrial{
+    @extend .contenedor;
       background-image: url("../assets/imgs/industrial.jpg");
       justify-content: flex-end;
   }
@@ -83,6 +91,7 @@
       background-image: url("../assets/imgs/natural.jpg");
       justify-content: flex-start;
 }
+
 
 
   .contenedor__moderno{

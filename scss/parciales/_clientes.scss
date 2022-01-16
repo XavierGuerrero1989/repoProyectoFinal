@@ -1,0 +1,38 @@
+@import "./responsive";
+@import "./variables";
+
+
+.clientes{
+    background-image: url("../assets/imgs/back2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: solid 4px rgb(73,76,95);
+    
+    &__title{
+      font-family: $font-type-title;
+      color: $font-color-dark;
+      font-size: 3rem;
+      padding: 20px;
+      
+      &--mini{
+        font-family: $font-type-normal;
+        color: white;
+        font-size: 1.5rem;
+        padding: 10px;
+        background-color: rgb(144, 12, 63);
+        border-radius: 0px 20px 20px 20px;
+      }
+    }
+}
+  
+  
+  .carousel{
+    padding: 10px;
+    
+  }
+  
+  .carousel-inner{
+    border-radius: 20px 20px 20px 20px;
+  }
+  

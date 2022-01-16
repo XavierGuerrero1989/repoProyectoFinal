@@ -1,0 +1,53 @@
+@import "./variables";
+@import "./responsive";
+
+
+.contact{
+    background-image: url("../assets/imgs/fcontacto.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-bottom: solid 4px rgb(73,76,95);
+    
+    &__title{
+      font-family: $font-type-title;
+      color: white;
+      font-size: 2.5rem;
+
+      @include movil{
+        text-align: center;
+      }
+  
+      @include tablet{
+        text-align: center;
+      }
+    }
+    
+    &__minititulo{
+      font-family: $font-type-normal;
+      color: white;
+      font-size: 1.5rem;
+    }
+  }
+  
+  
+  
+  .form-check-label{
+    font-family: $font-type-normal;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .btn__contact{
+    font-family: $font-type-normal;
+    background-color: rgb(73,76,95);
+  }
+  
+  .btn__contact:hover{
+    background-color: turquoise;
+    color: rgb(73,76,95)
+  }
+  
+  
+  

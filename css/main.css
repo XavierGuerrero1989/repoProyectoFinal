@@ -328,6 +328,13 @@
   flex-direction: column;
   align-items: center; }
 
+.btn__propuestas {
+  background-color: #494c5f; }
+
+.btn__propuestas:hover {
+  background-color: turquoise;
+  color: #494c5f; }
+
 .contenedor, .contenedor__japandi, .contenedor__industrial, .contenedor__natural, .contenedor__moderno {
   display: flex;
   align-items: center;
@@ -373,3 +380,63 @@
 
 .explicacion__content4 {
   border-radius: 20px 0px 0px 20px; }
+
+.clientes {
+  background-image: url("../assets/imgs/back2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid 4px #494c5f; }
+  .clientes__title {
+    font-family: "Josefin Slab", serif;
+    color: #494c5f;
+    font-size: 3rem;
+    padding: 20px; }
+    .clientes__title--mini {
+      font-family: "Comfortaa", cursive;
+      color: white;
+      font-size: 1.5rem;
+      padding: 10px;
+      background-color: #900c3f;
+      border-radius: 0px 20px 20px 20px; }
+
+.carousel {
+  padding: 10px; }
+
+.carousel-inner {
+  border-radius: 20px 20px 20px 20px; }
+
+.contact {
+  background-image: url("../assets/imgs/fcontacto.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-bottom: solid 4px #494c5f; }
+  .contact__title {
+    font-family: "Josefin Slab", serif;
+    color: white;
+    font-size: 2.5rem; }
+    @media screen and (max-width: 320px) {
+      .contact__title {
+        text-align: center; } }
+    @media screen and (max-width: 768px) {
+      .contact__title {
+        text-align: center; } }
+  .contact__minititulo {
+    font-family: "Comfortaa", cursive;
+    color: white;
+    font-size: 1.5rem; }
+
+.form-check-label {
+  font-family: "Comfortaa", cursive;
+  color: white;
+  font-size: 1.2rem; }
+
+.btn__contact {
+  font-family: "Comfortaa", cursive;
+  background-color: #494c5f; }
+
+.btn__contact:hover {
+  background-color: turquoise;
+  color: #494c5f; }
