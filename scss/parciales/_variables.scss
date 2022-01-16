@@ -3,3 +3,11 @@ $font-type-normal: 'Comfortaa', cursive;
 $font-type-title: 'Josefin Slab', serif;
 $background-color-brown: #c09d89;
 $border-color-dark: #494c5f;
+
+$estilos_propuestas: (
+    fuente: $font-type-normal,
+    colores: white,
+    tFuente: 1.3 rem,
+    fondo: rgba(144, 12, 63, .8),
+)
+

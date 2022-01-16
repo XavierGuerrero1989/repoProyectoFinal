@@ -286,3 +286,90 @@
     font-family: "Comfortaa", cursive;
     color: #494c5f;
     font-size: 1.2rem; }
+
+.propuestas__ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: auto;
+  background-image: url("../assets/imgs/back2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: solid 4px #494c5f; }
+
+.propuestas__ctn2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.propuestas__titulo {
+  font-family: "Josefin Slab", serif;
+  color: #494c5f;
+  font-size: 2rem; }
+
+.card-img-top {
+  padding: 5px;
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 20px;
+  border: solid 3px #494c5f; }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border: 0px !important;
+  background: transparent !important; }
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.contenedor, .contenedor__japandi, .contenedor__industrial, .contenedor__natural, .contenedor__moderno {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  border-bottom: solid 4px #494c5f; }
+
+.contenedor__japandi {
+  background-image: url("../assets/imgs/japandi.jpg");
+  justify-content: flex-start; }
+
+.contenedor__industrial {
+  background-image: url("../assets/imgs/industrial.jpg");
+  justify-content: flex-end; }
+
+.contenedor__natural {
+  background-image: url("../assets/imgs/natural.jpg");
+  justify-content: flex-start; }
+
+.contenedor__moderno {
+  background-image: url("../assets/imgs/moderno.jpg");
+  justify-content: flex-end; }
+
+.explicacion, .explicacion__content, .explicacion__content2, .explicacion__content3, .explicacion__content4 {
+  font-family: "Comfortaa", cursive;
+  color: white;
+  height: auto;
+  font-size: 1.3 rem;
+  background-color: rgba(144, 12, 63, 0.8);
+  padding: 5px; }
+
+.explicacion__content {
+  border-radius: 0px 20px 20px 0px; }
+
+.explicacion__content2 {
+  border-radius: 20px 0px 0px 20px; }
+
+.explicacion__content3 {
+  border-radius: 0px 20px 20px 0px; }
+
+.explicacion__content4 {
+  border-radius: 20px 0px 0px 20px; }

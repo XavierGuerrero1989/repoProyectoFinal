@@ -1,0 +1,123 @@
+@import "./variables";
+@import "./responsive";
+
+
+.propuestas{
+
+    &__ctn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: auto;
+        background-image: url("../assets/imgs/back2.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom: solid 4px rgb(73,76,95);
+      }
+      
+    &__ctn2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      
+    &__titulo{
+        font-family: $font-type-title;
+        color: $font-color-dark;
+        font-size: 2rem;
+      }
+      
+}
+
+  
+  .card-img-top{
+    padding: 5px;
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 20px;
+    border: solid 3px rgb(73,76,95);
+  }
+  
+  .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 0px !important;
+    background: transparent !important;
+  }
+  
+  .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .contenedor{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-bottom: solid 4px rgb(73,76,95);
+  }
+
+  .contenedor__japandi{
+      @extend .contenedor;
+      background-image: url("../assets/imgs/japandi.jpg");
+      justify-content: flex-start;
+    }
+
+  .contenedor__industrial{
+      @extend .contenedor;
+      background-image: url("../assets/imgs/industrial.jpg");
+      justify-content: flex-end;
+  }
+
+.contenedor__natural{
+      @extend .contenedor;
+      background-image: url("../assets/imgs/natural.jpg");
+      justify-content: flex-start;
+}
+
+
+  .contenedor__moderno{
+      @extend .contenedor;
+      background-image: url("../assets/imgs/moderno.jpg");
+      justify-content: flex-end;
+  }
+  
+  .explicacion{
+    font-family: map-get($map: $estilos_propuestas, $key: fuente);
+    color: map-get($map: $estilos_propuestas, $key: colores);
+    height: auto;
+    font-size: map-get($map: $estilos_propuestas, $key: tFuente);
+    background-color: map-get($map: $estilos_propuestas, $key: fondo);
+    padding: 5px;
+  }
+
+  .explicacion__content{
+      @extend .explicacion;
+    border-radius: 0px 20px 20px 0px;
+  }
+
+  .explicacion__content2{
+    @extend .explicacion;
+    border-radius: 20px 0px 0px 20px;
+  }
+  
+  .explicacion__content3{
+    @extend .explicacion;
+    border-radius: 0px 20px 20px 0px;
+  }
+
+  
+  .explicacion__content4{
+    @extend .explicacion;
+    border-radius: 20px 0px 0px 20px;
+  }
+  
