@@ -24,8 +24,45 @@
         border-radius: 0px 20px 20px 20px;
       }
     }
+
+    &__subcnt{
+      border-bottom: dashed 4px rgb(73,76,95);
+      height: 20vh;
+      }
+
+    &__subtitle{
+      font-family: $font-type-normal;
+      color: $font-color-dark;
+      font-size: 1.5rem;
+      justify-self: center;
+      text-decoration: none;
+    }
 }
-  
+.rotate-hor-center:hover {
+	-webkit-animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes rotate-hor-center {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+    }
+    100% {
+      -webkit-transform: rotateX(-360deg);
+              transform: rotateX(-360deg);
+    }
+  }
+  @keyframes rotate-hor-center {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+    }
+    100% {
+      -webkit-transform: rotateX(-360deg);
+              transform: rotateX(-360deg);
+    }
+  }
   
   .carousel{
     padding: 10px;
