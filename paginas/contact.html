@@ -50,54 +50,56 @@
           <h1 class="col-md-8 fs-2 contact__title"><strong>Déjenos sus datos de contacto</strong></h1>
         </div>
         <div class="row">
-          <form class="col-md-4 contact__form" action="https://formspree.io/f/xqknewpj"
+          <form id="form" class="col-md-4 contact__form" action="https://formspree.io/f/xqknewpj"
           method="POST">
             <div class="input-group input-group-sm mb-3">
-              <span class="input-group-text" id="inputGroup-sizing-sm">Nombre</span>
-              <input type="text" placeholder="Introduzca su nombre" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              <label for="Nombre" class="input-group-text" id="inputGroup-sizing-sm">Nombre</label>
+              <input name="Nombre" id="Nombre" type="text" placeholder="Introduzca su nombre" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
             </div>
             <br>
             <div class="input-group input-group-sm mb-3">
-              <span class="input-group-text" id="inputGroup-sizing-sm">Apellido</span>
-              <input type="text" placeholder="Introduzca su apellido" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              <label for="Apellido" class="input-group-text" id="inputGroup-sizing-sm">Apellido</label>
+              <input name="Apellido" id="Apellido" type="text" placeholder="Introduzca su apellido" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
             </div>
             <br>
             <div class="input-group input-group-sm mb-3">
-              <span class="input-group-text" id="inputGroup-sizing-sm">Teléfono</span>
-              <input type="number" placeholder="Introduzca su telefono de contacto" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              <label for="Telefono" class="input-group-text" id="inputGroup-sizing-sm">Teléfono</label>
+              <input name="Telefono" id="Telefono" type="number" placeholder="Introduzca su telefono de contacto" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
             </div>
             <br>
             <div class="input-group input-group-sm mb-3">
-              <span class="input-group-text" id="inputGroup-sizing-sm">@</span>
-              <input type="email" placeholder="Introduzca su casilla de mail" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              <label for="Mail" class="input-group-text" id="inputGroup-sizing-sm">@</label>
+              <input name="Mail" id="Mail" type="email" placeholder="Introduzca su casilla de mail" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
             </div>
             <br>
             <div class="form-check">
               <h3 class="fs-4 contact__minititulo">Tipo de decoración a solicitar:</h3>
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              <label class="form-check-label" for="flexRadioDefault1">
+              
+              <input class="form-check-input" type="radio" name="TipoDecoracion" id="TipoDecoracionRedeco">
+              <label class="form-check-label" for="TipoDecoracionRedeco">
                 Redecoración.
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-              <label class="form-check-label" for="flexRadioDefault2">
+              <input class="form-check-input" type="radio" name="TipoDecoracion" id="TipoDecoracionDeco" checked>
+              <label class="form-check-label" for="TipoDecoracionDeco">
                 Decoración desde cero.
               </label>
             </div>
             <br>
             <div class="input-group">
-              <span class="input-group-text">Describa el tipo de diseño a solicitar</span>
-              <textarea class="form-control" aria-label="With textarea"></textarea>
+              <label for="Descripcion" class="input-group-text">Describa el tipo de diseño a solicitar</label>
+              <textarea name="Descripcion" id="Descripcion" class="form-control" aria-label="With textarea"></textarea>
             </div>
             <br>
-            <select class="form-select" aria-label="Default select example">
+            <label for="Conoce"></label>
+            <select name="Conoce" id="Conoce" class="form-select" aria-label="Default select example">
               <option selected>¿De dónde nos conoce?</option>
-              <option value="1">Google</option>
-              <option value="2">Instagram</option>
-              <option value="3">Recomendación</option>
-              <option value="4">Ya fuí cliente</option>
-              <option value="5">Otra</option>
+              <option value="Google">Google</option>
+              <option value="Instagram">Instagram</option>
+              <option value="Recomendacion">Recomendación</option>
+              <option value="Cliente">Ya fuí cliente</option>
+              <option value="Otra">Otra</option>
             </select>
             <br>
             <div class="col-auto">
@@ -162,7 +164,7 @@
           }
         }) 
         if (response.ok) {
-          this.reset
+          this.reset ()
           alert('Muchas Gracias, estaremos contactandote a la brevedad.')
         }
       }

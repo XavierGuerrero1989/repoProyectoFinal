@@ -1,4 +1,6 @@
 @import "./variables";
+@import "./responsive";
+
 
 .footer{
     display: flex;
@@ -50,6 +52,8 @@
       @include tablet{
        padding: 10px;
       }
+    
+    
     }
     
     &__link{
