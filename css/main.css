@@ -385,7 +385,7 @@
   background-image: url("../assets/imgs/back2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   border-bottom: solid 4px #494c5f; }
   .clientes__title {
     font-family: "Josefin Slab", serif;

@@ -50,7 +50,8 @@
           <h1 class="col-md-8 fs-2 contact__title"><strong>Déjenos sus datos de contacto</strong></h1>
         </div>
         <div class="row">
-          <form class="col-md-4 contact__form" action="#" method="get">
+          <form class="col-md-4 contact__form" action="https://formspree.io/f/xqknewpj"
+          method="POST">
             <div class="input-group input-group-sm mb-3">
               <span class="input-group-text" id="inputGroup-sizing-sm">Nombre</span>
               <input type="text" placeholder="Introduzca su nombre" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
@@ -144,6 +145,27 @@
           AOS.init();
     </script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script>
+      const $form = document.querySelector('#form')
+
+      $form.addEventListener('submit', handleSubmit)
+
+      async function handleSubmit(event) {
+        event.preventDefault()
+        const form = new FormData(this)
+       const response = await fetch(this.action, {
+          method: this.method,
+          body: form,
+          headers: {
+            'Accept': 'application/json'
+          }
+        }) 
+        if (response.ok) {
+          this.reset
+          alert('Muchas Gracias, estaremos contactandote a la brevedad.')
+        }
+      }
     </script>
 </body>
 </html>
