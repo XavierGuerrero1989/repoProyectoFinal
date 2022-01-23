@@ -429,6 +429,15 @@
     -webkit-transform: rotateX(-360deg);
     transform: rotateX(-360deg); } }
 
+.minititle__ctn {
+  padding: 20px; }
+
+.galeria {
+  padding: 10px; }
+
+.clientimg {
+  border-radius: 10px 10px 10px 10px; }
+
 .carousel {
   padding: 10px; }
 
@@ -469,3 +478,93 @@
 .btn__contact:hover {
   background-color: turquoise;
   color: #494c5f; }
+
+.nosotros__title {
+  font-family: "Josefin Slab", serif;
+  color: #494c5f;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  align-self: flex-start; }
+  @media screen and (max-width: 320px) {
+    .nosotros__title {
+      text-align: center;
+      font-size: 1.5rem; } }
+  @media screen and (max-width: 768px) {
+    .nosotros__title {
+      text-align: center;
+      font-size: 1.5rem; } }
+
+.nosotros__subtitle {
+  font-family: "Josefin Slab", serif;
+  color: #494c5f;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  align-self: flex-start; }
+  @media screen and (max-width: 320px) {
+    .nosotros__subtitle {
+      text-align: center;
+      font-size: 1.2rem; } }
+  @media screen and (max-width: 768px) {
+    .nosotros__subtitle {
+      text-align: center;
+      font-size: 1.2rem; } }
+
+.nosotros__img {
+  display: none;
+  border-radius: 20px 20px 20px 20px;
+  padding: 5px; }
+  @media screen and (max-width: 320px) {
+    .nosotros__img {
+      display: initial; } }
+  @media screen and (max-width: 768px) {
+    .nosotros__img {
+      display: initial; } }
+
+.nosotros__ctn {
+  background-image: url("../../assets/imgs/maraFondo1.jpg");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 90vh; }
+  @media screen and (max-width: 320px) {
+    .nosotros__ctn {
+      background-image: none;
+      height: 100%; } }
+  @media screen and (max-width: 768px) {
+    .nosotros__ctn {
+      background-image: none;
+      height: 100%; } }
+
+.nosotros__pt2 {
+  background-image: linear-gradient(45deg, #74EBD5 0%, #9bc3c3 50%, #ffffff 100%);
+  background-size: contain;
+  border-bottom: solid 4px #494c5f; }
+
+.nosotros__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Comfortaa", cursive;
+  color: #494c5f;
+  padding: 20px;
+  font-size: 1.2rem; }
+  @media screen and (max-width: 320px) {
+    .nosotros__text {
+      text-align: center;
+      font-size: 1rem; } }
+  @media screen and (max-width: 768px) {
+    .nosotros__text {
+      text-align: center;
+      font-size: 1rem; } }
+
+.nosotros__minitext {
+  font-family: "Comfortaa", cursive;
+  color: #494c5f; }
+
+.nosotros__minitittle {
+  font-family: "Josefin Slab", serif;
+  color: #494c5f;
+  padding: 15px; }
+  .nosotros__minitittle--2 {
+    font-family: "Josefin Slab", serif;
+    color: #494c5f; }
