@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 .navMenu {
-  border-bottom: solid 4px #494c5f; }
+  border-bottom: solid 4px #67c3c1; }
   .navMenu__logo {
     width: 200px; }
 
@@ -15,7 +15,7 @@
   font-family: "Comfortaa", cursive;
   color: #494c5f;
   font-size: 0.8rem;
-  border-bottom: solid 2px #c09d89; }
+  border-bottom: solid 2px #67c3c1; }
 
 .nav-link {
   padding: 0px; }
@@ -63,16 +63,16 @@
     font-family: "Josefin Slab", serif;
     font-size: 1.8rem;
     color: #494c5f;
-    background-color: #c09d89;
-    border-color: solid #c09d89;
+    background-color: #67c3c1;
+    border-color: solid #67c3c1;
     border-radius: 0px 20px 20px 0px;
     align-items: center;
     padding: 16px; }
   .heroSection__sub {
     font-family: "Comfortaa", cursive;
     font-size: 1.4rem;
-    background-color: #c09d89;
-    border-color: #c09d89;
+    background-color: #67c3c1;
+    border-color: #67c3c1;
     border-radius: 0px 20px 20px 0px;
     align-items: center;
     justify-content: flex-start;
@@ -166,8 +166,8 @@
   display: flex;
   position: relative;
   height: 100%;
-  border-bottom: solid 4px #494c5f;
-  border-top: solid 4px #494c5f;
+  border-bottom: solid 4px #67c3c1;
+  border-top: solid 4px #67c3c1;
   padding: 10px; }
   .description__text {
     align-self: center; }
@@ -296,7 +296,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-bottom: solid 4px #494c5f; }
+  border-bottom: solid 4px #67c3c1; }
 
 .propuestas__ctn2 {
   display: flex;
@@ -313,7 +313,7 @@
   width: 200px !important;
   height: 200px !important;
   border-radius: 20px;
-  border: solid 3px #494c5f; }
+  border: solid 3px #67c3c1; }
 
 .card {
   display: flex;
@@ -343,7 +343,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  border-bottom: solid 4px #494c5f; }
+  border-bottom: solid 4px #67c3c1; }
 
 .contenedor__japandi {
   background-image: url("../assets/imgs/japandi.jpg");
@@ -386,7 +386,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  border-bottom: solid 4px #494c5f; }
+  border-bottom: solid 4px #67c3c1; }
   .clientes__title {
     font-family: "Josefin Slab", serif;
     color: #494c5f;
@@ -400,7 +400,7 @@
       background-color: #900c3f;
       border-radius: 0px 20px 20px 20px; }
   .clientes__subcnt {
-    border-bottom: dashed 4px #494c5f;
+    border-bottom: dashed 4px #67c3c1;
     height: 20vh; }
   .clientes__subtitle {
     font-family: "Comfortaa", cursive;
@@ -450,7 +450,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
-  border-bottom: solid 4px #494c5f; }
+  border-bottom: solid 4px #67c3c1; }
   .contact__title {
     font-family: "Josefin Slab", serif;
     color: white;
